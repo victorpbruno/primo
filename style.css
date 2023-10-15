@@ -2,8 +2,11 @@
     border: 1px black solid;
     text-align: center;
     width: 500px;
-    margin-left: 25vh;
 }
 #form{
     margin: 10px;
+}
+body{
+    display: flex;
+    justify-content: center;
 }
