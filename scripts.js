@@ -21,9 +21,9 @@ form.addEventListener("submit", event => {
 
     if (primo) {
         let result = document.querySelector("#result");
-        result.innerHTML = "O número é primo";
+        result.innerHTML = "O número " + value +  " é primo";
 }else{
-    result.innerHTML = "O número não é primo";
+    result.innerHTML = "O número " + value +  " não é primo";
 }
 });
 
